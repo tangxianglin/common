@@ -1,0 +1,19 @@
+{
+  "name": "@txl/common",
+  "version": "0.0.1",
+  "description": "common",
+  "main": "lib/index.js",
+  "scripts": {
+    "transpile": "npx babel src --out-dir lib"
+  },
+  "author": "t_xianglin@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.3",
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0"
+  }
+}
