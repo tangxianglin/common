@@ -1,12 +1,11 @@
 {
-  "name": "@txl/common",
+  "name": "@markdf/common",
   "version": "0.0.1",
   "description": "common",
   "main": "lib/index.js",
   "scripts": {
     "transpile": "npx babel src --out-dir lib"
   },
-  "author": "t_xianglin@163.com",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.6.3",
@@ -15,5 +14,22 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.6.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangxianglin/common"
+  },
+  "author": {
+    "name": "t_xianglin",
+    "email": "t_xianglin@163.com"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ]
 }
