@@ -2,6 +2,7 @@
 
 .idea
 .vscode
+.npmrc
 
 dist
 lib
